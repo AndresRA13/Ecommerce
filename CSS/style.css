@@ -206,8 +206,27 @@ body{
   width: 180px;
   height: 100px;
 }
+/* Estilos para el modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  z-index: 1;
+}
 
-/* Estilos específicos para la imagen */
+.cerrar-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+
+
 
 /* Estilos específicos para el producto en el carrito modal */
 #carritoModal{
