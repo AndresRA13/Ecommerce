@@ -65,12 +65,12 @@ window.addEventListener('resize', ()=>{
 });
  // Objeto global para almacenar productos
  const productos = [
-    { id: 1, nombre: 'Zapatos night', precio: 20 },
-    { id: 2, nombre: 'Chaqueta', precio: 30 },
-    { id: 3, nombre: 'Camiseta Rojas', precio: 25 },
-    { id: 4, nombre: 'Pantalones', precio: 40 },
-    { id: 5, nombre: 'Sombrero', precio: 15 }
-];
+    { id: 1, nombre: 'Zapatos night', precio: 20, imagen: 'https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/11/23/16691993780157.jpg' },
+    { id: 2, nombre: 'Chaqueta', precio: 30, imagen: 'https://matassamilano.com/cdn/shop/products/5_aa6c1e00-e87a-4f35-ae16-d332bff87284.png?v=1677683616' },
+    { id: 3, nombre: 'Camiseta Rojas', precio: 25, imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXvOP_11ToycrhGwC7hMSCAA9JyR_uR9nrykGWdoQjsw&s' },
+    { id: 4, nombre: 'Pantalones', precio: 40, imagen: 'https://m.media-amazon.com/images/I/61OjWrh1FLL._AC_UY300_.jpg' },
+    { id: 5, nombre: 'Sombrero', precio: 15, imagen: 'https://m.media-amazon.com/images/I/61OjWrh1FLL._AC_UY300_.jpg' },
+  ];
 function cargarProductosEnLista() {
     const listaProductosElement = document.getElementById('listaProductos');
 
