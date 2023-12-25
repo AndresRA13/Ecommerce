@@ -117,7 +117,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(/img/Images/imgcentral.jpg);
+    url(https://media.gq.com.mx/photos/6279755698ce0267fa610a0b/4:3/w_1928,h_1446,c_limit/ropa-de-moda-para-hombre-2022.jpg);
   background-repeat: none;
   background-size: cover;
   align-items: center;
@@ -335,5 +335,15 @@ button:active {
     padding: 5px;
     border-radius: 10px;
     transition: 0.3s ease-in-out;
+  }
+  /*Carousel offerts Lading*/
+.carousel_container {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    align-items: center;
   }
 }
