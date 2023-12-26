@@ -102,6 +102,10 @@
   margin: 15px;
   list-style-type: none;
 }
+.main .main-i i{
+  display: none;
+  margin-right: 5px;
+}
 .main .main-i a {
   position: relative;
   text-decoration: none;
@@ -374,6 +378,9 @@ button:active {
 .main .main-i {
   margin: 15px;
   list-style-type: none;
+}
+.main .main-i i{
+  display: inline;
 }
 .main .main-i a {
   position: relative;
