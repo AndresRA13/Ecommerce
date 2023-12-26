@@ -25,12 +25,15 @@ document.addEventListener("DOMContentLoaded", function() {
   /*OPEN Y CLOSE BARS NAV */
   const openBars = document.querySelector('#open_bars');
   const closeBars = document.querySelector('#close_bars');
+  const nav = document.querySelector('.nav');
   openBars.addEventListener('click', (e) =>{
     openBars.classList.add('ocultar');
     closeBars.classList.add('mostrar');
+    nav.classList.add('ver');
   });
   closeBars.addEventListener('click', (e) =>{
     console.log('funcionando');
     openBars.classList.remove('ocultar');
     closeBars.classList.remove('mostrar');
+    nav.classList.remove('ver');
   })

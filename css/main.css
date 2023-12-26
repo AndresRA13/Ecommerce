@@ -36,19 +36,15 @@
 }
 .open_bars{
   margin-right: 10px;
-  display: flex;
+  display: none;
   font-size: 28px;
+  cursor: pointer;
 }
 .close_bars{
   margin-right: 10px;
   display: none;
+  cursor: pointer;
   font-size: 28px;
-}
-.mostrar{
-  display: flex;
-}
-.ocultar{
-  display: none;
 }
 .header .header_btn i {
   color: rgba(0, 0, 0, 0.61);
@@ -342,4 +338,62 @@ button:active {
     background-size: cover;
     align-items: center;
   }
+  /*main navigation*/
+.nav {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 8vh;
+  width: 50%;
+  height: 92%;
+  background-color: whitesmoke;
+  z-index: 2;
+  transform: translateX(-100%);
+  transition: .3s ease-in-out;
+}
+.open_bars{
+  display: flex;
+}
+.close_bars{
+  display: none;
+}
+.ver{
+  transform: translateX(0);
+}
+.mostrar{
+  display: flex;
+}
+.ocultar{
+  display: none;
+}
+.nav .main {
+  display: flex;
+  flex-direction: column;
+}
+.main .main-i {
+  margin: 15px;
+  list-style-type: none;
+}
+.main .main-i a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+.main-i a:hover::after {
+  opacity: 1;
+  width: 100%;
+}
+
+.main-i a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  opacity: 0;
+  top: 17px;
+  left: 0;
+  height: 2px;
+  background-color: red;
+  transition: 0.3s ease-in-out;
+}
 }
