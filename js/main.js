@@ -21,6 +21,16 @@ document.addEventListener("DOMContentLoaded", function() {
     var modal = document.getElementById("miModal");
     modal.style.display = "none";
   }
-  
 
-
+  /*OPEN Y CLOSE BARS NAV */
+  const openBars = document.querySelector('#open_bars');
+  const closeBars = document.querySelector('#close_bars');
+  openBars.addEventListener('click', (e) =>{
+    openBars.classList.add('ocultar');
+    closeBars.classList.add('mostrar');
+  });
+  closeBars.addEventListener('click', (e) =>{
+    console.log('funcionando');
+    openBars.classList.remove('ocultar');
+    closeBars.classList.remove('mostrar');
+  })
