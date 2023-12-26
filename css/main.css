@@ -30,6 +30,14 @@
   height: 5vh;
   background-color: whitesmoke;
 }
+.header_logo{
+  display: flex;
+  align-items: center;
+}
+.header_logo i{
+  margin-right: 10px;
+  font-size: 28px;
+}
 .header .header_btn i {
   color: rgba(0, 0, 0, 0.61);
   font-size: 16px;
