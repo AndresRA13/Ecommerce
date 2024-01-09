@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/de820b69c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>AR | Inicio</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+
+  <body>
+    <nav class="nav container">
+      <img src="./images/arshop.png" class="nav__img" />
+
+      <div class="nav__hamburguer"></div>
+
+      <div class="nav__overlay">
+        <ul class="nav__menu">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Inicio</a>
+          </li>
+
+          <li class="nav__item">
+            <span class="nav__parent"
+              >Tienda
+              <img src="./images/icon-arrow-down.svg" class="nav__arrow" />
+            </span>
+
+            <ul class="nav__inner">
+              <li class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <img src="./images/icon-todo.svg" class="nav__illustration" />
+                  Todo List
+                </a>
+              </li>
+
+              <li class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <img
+                    src="./images/icon-calendar.svg"
+                    class="nav__illustration"
+                  />
+                  Calendar
+                </a>
+              </li>
+
+              <li class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <img
+                    src="./images/icon-reminders.svg"
+                    class="nav__illustration"
+                  />
+                  Reminder
+                </a>
+              </li>
+
+              <li class="nav__dropdown">
+                <a href="#" class="nav__link">
+                  <img
+                    src="./images/icon-planning.svg"
+                    class="nav__illustration"
+                  />
+                  Planning
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item">
+            <span class="nav__parent"
+              >Blog
+              <img src="./images/icon-arrow-down.svg" class="nav__arrow" />
+            </span>
+
+            <ul class="nav__inner">
+              <li class="nav__dropdown">
+                <a href="#" class="nav__link">Sobre Nosotros</a>
+              </li>
+
+              <li class="nav__dropdown">
+                <a href="#" class="nav__link">Our Team</a>
+              </li>
+
+              <li class="nav__dropdown">
+                <a href="#" class="nav__link">Politicas y privacidad</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">Careers</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">About</a>
+          </li>
+
+          <li class="nav__login">
+            <a href="#" class="nav__sign" id="logout">Logout</a>
+          </li>
+
+          <li class="nav__login nav__login--border">
+            <a href="#" class="nav__sign">Register</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="main">
+      <section class="main__grid">
+        <picture class="main__picture">
+          <source
+            srcset="./images/image-hero-desktop.png"
+            class="main__img"
+            media="(min-width:768px)"
+          />
+
+          <img src="./images/image-hero-mobile.png" class="main__img" />
+        </picture>
+
+        <article class="main__article">
+          <div class="main__texts">
+            <h1 class="main__title">The best online store!</h1>
+            <p class="main__paragraph">
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <a href="#" class="main__cta">Learn more</a>
+          </div>
+
+          <div class="main__brands">
+            <img src="./images/client-databiz.svg" class="main__brand" />
+            <img src="./images/client-audiophile.svg" class="main__brand" />
+            <img src="./images/client-meet.svg" class="main__brand" />
+            <img src="./images/client-maker.svg" class="main__brand" />
+          </div>
+        </article>
+      </section>
+    </main>
+    <!--FREE SECTION THE DOLLARS FROM THE WITH NIN-->
+    <section class="information" id="INFORMATION">
+      <div class="init">
+        <div class="information_init">
+          <div class="information_sect">
+            <div class="img"><img src="images/pago.jpg" alt="" /></div>
+            <div class="title">Free Shipping</div>
+          </div>
+        </div>
+        <div class="information_init">
+          <div class="information_sect">
+            <div class="img"><img src="images/order.jpg" alt="" /></div>
+            <div class="title">Online Order</div>
+          </div>
+        </div>
+        <div class="information_init">
+          <div class="information_sect">
+            <div class="img"><img src="images/save.jpg" alt="" /></div>
+            <div class="title">Save Money</div>
+          </div>
+        </div>
+        <div class="information_init">
+          <div class="information_sect">
+            <div class="img"><img src="images/sale.jpg" alt="" /></div>
+            <div class="title">Promotions</div>
+          </div>
+        </div>
+        <div class="information_init">
+          <div class="information_sect">
+            <div class="img"><img src="images/happy.jpg" alt="" /></div>
+            <div class="title">Happy Sell</div>
+          </div>
+        </div>
+        <div class="information_init">
+          <div class="information_sect">
+            <div class="img"><img src="images/f24.jpg" alt="" /></div>
+            <div class="title">F24/7 Support</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Products" id="PRODUCT">
+      <div class="titles">
+        <div class="title">Feature products</div>
+        <div class="subtitle">Summer Collection New Morden Design</div>
+      </div>
+      <div class="products_feactures">
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://chemasport.es/8127-thickbox_default/camiseta-adidas-junior-clfn-trefoil-blanco.jpg"
+              alt=""
+              onclick="toggleSection(1);"
+              class="toggle-button"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$13</div>
+              <div class="car" onclick="toggleSection(1);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://i.pinimg.com/236x/a7/82/bf/a782bf5c9a1a1697185e17f15ee5b364.jpg"
+              alt=""
+              onclick="toggleSection(2);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$12</div>
+              <div class="car" onclick="toggleSection(2);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://down-co.img.susercontent.com/file/sg-11134201-7qveu-lguu70td6bqva4_tn"
+              alt=""
+              onclick="toggleSection(3);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$13</div>
+              <div class="car" onclick="toggleSection(3);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://www.oriontenis.com/wp-content/uploads/2022/08/HB9170_1.jpg"
+              alt=""
+              onclick="toggleSection(4);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$12</div>
+              <div class="car" onclick="toggleSection(4)">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ccfac127187d4b80ba16abac00dce8da_9366/Camiseta_UNISEX_Azul_GD2802_01_laydown.jpg"
+              alt=""
+              onclick="toggleSection(5);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$13</div>
+              <div class="car" onclick="toggleSection(5);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0413/0416/2471/products/HD6875_APP_photo_back-center_white.jpg?v=1678281752"
+              alt=""
+              onclick="toggleSection(6);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$12</div>
+              <div class="car" onclick="toggleSection(6);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/0267b45988e84ce1a784ac8301035a50_9366/camiseta-aeroready-designed-to-move-sport.jpg"
+              alt=""
+              onclick="toggleSection(7);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$13</div>
+              <div class="car" onclick="toggleSection(7);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/57b5b5805ab44ae3affbac8700be02e2_9366/Camiseta_Own_the_Run_Azul_GJ9966_01_laydown.jpg"
+              alt=""
+              onclick="toggleSection(8);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$12</div>
+              <div class="car" onclick="toggleSection(8);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://www.geomix.at/shop/images/0-0-115567.png"
+              alt=""
+              onclick="toggleSection(9);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$13</div>
+              <div class="car" onclick="toggleSection(9);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://www.innvictus.com/medias/playera-nike-sportswear-in-BV7595-886-1.jpg?context=bWFzdGVyfGltYWdlc3w3Mjk2OHxpbWFnZS9qcGVnfGltYWdlcy9oNDkvaGU2Lzk4MDg0ODY1MzExMDIuanBnfGFkNjVkMTQ0NzNiNmY0ZWI5ZWJiN2JlNjViYmUyMzdmOGJlNWI0OGY1N2ZkYWJkN2ViMDhlZWFkNjQ0YzFiOGM"
+              alt=""
+              onclick="toggleSection(10);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$12</div>
+              <div class="car" onclick="toggleSection(10);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Seccion del % de descuento en demás accesorios-->
+    <section class="discount" id="DISCOUNT">
+      <div class="titles">
+        <div class="title">Repair Services</div>
+        <div class="subtitle">
+          Up to <span>70% off</span>- All t-shirts & Accessories
+        </div>
+      </div>
+      <button class="button">Explore More</button>
+    </section>
+    <!--Seccion de sacos-->
+    <section class="Products" id="PRODUCTS2">
+      <div class="titles">
+        <div class="title">New Arrivals</div>
+        <div class="subtitle">Summer Collection New Morden Design</div>
+      </div>
+      <div class="products_feactures">
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://simg.nicepng.com/png/small/816-8165799_camisa-manga-larga-camisa-de-vestir-de-rayas.png"
+              alt=""
+              onclick="toggleSection(11);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$13</div>
+              <div class="car" onclick="toggleSection(11);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://cdnebasnet.com/data/cache/opt_jpg/eshop/314/images/products/i/4/5/p45/0000-jach0-12177780lb-1-1600801871-350x350.jpg"
+              alt=""
+              onclick="toggleSection(12);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$12</div>
+              <div class="car" onclick="toggleSection(12);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdTcxtUZzoTlowjnVVZ1vk9m0gzjRR7uCfYiH0Hg7UGpbZRemMDyv0E2kAqu8Go8TIMFo&usqp=CAU"
+              alt=""
+              onclick="toggleSection(13);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$13</div>
+              <div class="car" onclick="toggleSection(13);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkLuaR2jnktPpZRvGp9tm2uh7tn1jmldhUP6mprQhRchPQBlMXAKCK_r3J2NTknNb2zb0&usqp=CAU"
+              alt=""
+              onclick="toggleSection(14);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$12</div>
+              <div class="car" onclick="toggleSection(14);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://http2.mlstatic.com/D_NQ_NP_939141-CBT48083157403_102021-O.jpg"
+              alt=""
+              onclick="toggleSection(15);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$13</div>
+              <div class="car" onclick="toggleSection(15);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://m.media-amazon.com/images/I/61aC2jyu3uL._AC_UY1100_.jpg"
+              alt=""
+              onclick="toggleSection(16);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$12</div>
+              <div class="car" onclick="toggleSection(16);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://m.media-amazon.com/images/I/61boGj40XTL._AC_SL1500_.jpg"
+              alt=""
+              onclick="toggleSection(17);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$13</div>
+              <div class="car" onclick="toggleSection(17);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://m.media-amazon.com/images/I/61cd5eAfy1L._AC_SX385_.jpg"
+              alt=""
+              onclick="toggleSection(18);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$12</div>
+              <div class="car" onclick="toggleSection(18);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://m.media-amazon.com/images/I/61vv7KAvRgL._AC_SX522_.jpg"
+              alt=""
+              onclick="toggleSection(19);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$13</div>
+              <div class="car" onclick="toggleSection(19);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img
+              src="https://m.media-amazon.com/images/I/610frx2Ci3L._AC_SL1500_.jpg"
+              alt=""
+              onclick="toggleSection(20);"
+            />
+          </div>
+          <div class="product_content">
+            <div class="marca">Adidas</div>
+            <div class="title">Cartoon Atronaut T-shirt</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="buttons">
+              <div class="price">$13</div>
+              <div class="car" onclick="toggleSection(20);">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Sección de imagenes y descuentos y anuncios-->
+    <div class="container_images" id="IMAGES">
+      <div class="container_one" id="container_one">
+        <div class="titles">
+          <div class="title">Crazy deals</div>
+          <div class="subtitle">Buy 1 get 1 free</div>
+          <div class="resubtitle">
+            The best classic dress iin on sale at cara
+          </div>
+          <button>Learn More</button>
+        </div>
+      </div>
+      <div class="container_one" id="container_two">
+        <div class="titles">
+          <div class="title">spring/summer</div>
+          <div class="subtitle">upcomming season</div>
+          <div class="resubtitle">
+            The beast classic dress in on sale at carr
+          </div>
+          <button>Collection</button>
+        </div>
+      </div>
+      <div class="container_two" id="container_three">
+        <div class="titles">
+          <div class="title">SESONAL SALE</div>
+          <div class="subtitle">Winter Collection - 50% OFF</div>
+        </div>
+      </div>
+      <div class="container_two" id="container_four">
+        <div class="titles">
+          <div class="title">NEW FOOTWEAR COLLECTION</div>
+          <div class="subtitle">Spring / Summer 2023</div>
+        </div>
+      </div>
+      <div class="container_two" id="container_five">
+        <div class="titles">
+          <div class="title">T-SHIRTS</div>
+          <div class="subtitle">New Trendy Prinhln</div>
+        </div>
+      </div>
+    </div>
+    <!--Seccion de contacto-->
+    <div class="contact" id="CONTACT">
+      <div class="contact_titles">
+        <div class="title">Sign Up For Newsletters</div>
+        <div class="subtitle">
+          Get E-mail updates about our latest shop and
+          <span>Specials offers</span>
+        </div>
+      </div>
+      <div class="contact_field">
+        <input type="text" class="email" placeholder="Your Email" />
+        <input type="submit" class="submit" value="Sign Up" />
+      </div>
+    </div>
+
+    <!--Seccion final footer-->
+    <footer class="footer" id="Footer">
+      <div class="one">
+        <div class="logo">DRHOUSE</div>
+        <div class="titles">Contact</div>
+        <div class="title">
+          <span>Address</span> 562 wellington Road, street 32, San Francisco
+        </div>
+        <div class="title">
+          <span>Phone</span> +01 2222 365 /(+91)01 2345 6789
+        </div>
+        <div class="title"><span>Hours</span> 10:00 - 18:00 Man - Sat</div>
+        <div class="titles">Follow Us</div>
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-pinterest"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+      <div class="two">
+        <div class="titles">About</div>
+        <div class="title"><a href="#">About Us</a></div>
+        <div class="title"><a href="#">Delivery information</a></div>
+        <div class="title"><a href="#">Privacy Policy</a></div>
+        <div class="title"><a href="#">Terms & conditions</a></div>
+        <div class="title"><a href="#">Contact Us</a></div>
+      </div>
+      <div class="three">
+        <div class="titles">My account</div>
+        <div class="title"><a href="#">Sign In</a></div>
+        <div class="title"><a href="#">View cart</a></div>
+        <div class="title"><a href="#">My wishlist</a></div>
+        <div class="title"><a href="#">Track my Order</a></div>
+        <div class="title"><a href="#">Help</a></div>
+      </div>
+      <div class="four">
+        <div class="titles">Install App</div>
+        <div class="title">From App Store or Google Play</div>
+        <div class="buttons">
+          <button>
+            <i class="fa-brands fa-apple"></i> Dowload in the App Store
+          </button>
+          <button>
+            <i class="fa-brands fa-google-play"></i> Dowload in the Google Play
+          </button>
+        </div>
+        <div class="title">Secure Payment Guateways</div>
+        <div class="icons">
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-brands fa-cc-mastercard"></i>
+          <i class="fa-brands fa-cc-paypal"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script>
+  <script src="JS/logout.js"></script>
+  <script src="JS/main.js"></script>
+</html>

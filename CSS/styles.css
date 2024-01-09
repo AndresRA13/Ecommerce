@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(14, 13, 13);
+}
+
+.login__border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 420px;
+    border-radius: 10px;
+    background: black;
+}
+
+.login__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(https://img.freepik.com/vector-premium/fondo-diseno-gris-oscuro-abstracto-degradado-elegante_249611-4990.jpg);
+    border-radius: 10px;
+    width: 350px;
+    height: 410px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    height: 8vh;
+}
+
+.input__field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.input {
+    width: 300px;
+    height: 45px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    outline: none;
+    padding: 0 0 0 35px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+.input__field i {
+    position: absolute;
+    color: white;
+    top: 14px;
+    left: 10px;
+    font-size: 18px;
+}
+.three_cols{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.three_cols label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+}
+.three_cols label input{
+    margin-right: 5px;
+}
+
+.three_cols a {
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    color: wheat;
+}
+.submits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit{
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: rgb(2, 139, 87);
+    color: white;
+    margin-bottom: 10px;
+    transition: .3s ease-in-out;
+}
+.submit:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+/*seccion de google*/
+.sign__log{
+    display: flex;
+    flex-direction: column;
+}
+.sign__log img{
+    width: 20px;
+    height: 30px;
+}
+.sign_save{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 45px;
+    border: 1px solid white;
+    background: gray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.sign_save h1{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.log_one{
+    background: white;
+    margin-bottom: 8px;
+}
+.log_two{
+    background: blue;
+    color: white;
+    border: none;
+}
+
+.two__cols{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.two__cols li{
+    list-style: none;
+    color: white;
+}
+.two__cols li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: wheat;
+}
