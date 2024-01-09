@@ -19,7 +19,7 @@ navOverlay.addEventListener('click', (e)=>{
     if( isActive(currentElement, 'nav__parent') ){
 
         const subMenu = currentElement.parentElement.children[1];
-        console.log(subMenu);
+       
 
         if(window.innerWidth < 768){
 
