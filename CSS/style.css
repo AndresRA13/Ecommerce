@@ -33,6 +33,12 @@ body{
   justify-content: space-between;
   background-color: white;
 }
+.nav__img{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Lucida Handwriting', cursive;
+  margin-left: 15px;
+}
 
 .nav__hamburguer{
   width: 30px;
@@ -207,6 +213,10 @@ body{
       overflow: visible;
       z-index: 100;
       width: 100%;
+  }
+
+  .nav__img{
+    margin-left: 20px;
   }
 
   .nav__hamburguer{

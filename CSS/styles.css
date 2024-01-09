@@ -211,7 +211,6 @@ button:hover {
   align-items: flex-start;
   margin-bottom: 10px;
   margin-top: 10px;
-  z-index: 101;
 }
 .product_view .product_images .img_done img{
   width: 100px;
