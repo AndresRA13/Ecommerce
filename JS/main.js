@@ -65,5 +65,3 @@ window.addEventListener('resize', ()=>{
     }
 });
 
-
-

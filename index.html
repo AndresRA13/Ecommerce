@@ -15,6 +15,7 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <title>AR | Inicio</title>
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
 
   <body>
@@ -105,11 +106,11 @@
           </li>
 
           <li class="nav__login">
-            <a href="#" class="nav__sign" id="logout">Logout</a>
+            <a href="#" class="nav__sign" id="logout">Carrito</a>
           </li>
 
           <li class="nav__login nav__login--border">
-            <a href="#" class="nav__sign">Register</a>
+            <a href="#" class="nav__sign">Favoritos</a>
           </li>
         </ul>
       </div>
@@ -146,6 +147,896 @@
         </article>
       </section>
     </main>
+
+    <!--Sección de muestra de solo los productos mas a fondo-->
+  <Section class="product_view" id="section1">
+    <div class="product_images">
+      <div class="close_btn toggle-button"  >
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(1);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://www.urbanstore.cz/assets/files/catalog/item-pictures/7e9a74a0-1c91-4fb5-a1ee-44a1b97d3b3c-20223c311f.jpg"
+          alt=""class="main_img" id="imagen1">
+      </div>
+      <div class="img_done">
+        <img src="https://i.cdn.nrholding.net/46366830/2000/2000" alt="" class="thumbnail active">
+        <img src="https://www.bestform.cz/gallery/products/middle/9934.jpg" alt="" class="thumbnail">
+        <img
+          src="https://www.vybavenitrost.cz/image/?w=450&h=450&i=https://www.vybavenitrost.cz/products/images/48/48-adidas-chlapecke-tricko-adidas-bile-4-1.jpg"
+          alt="" class="thumbnail">
+        <img
+          src="https://www.urbanstore.cz/assets/files/catalog/item-pictures/7e9a74a0-1c91-4fb5-a1ee-44a1b97d3b3c-20223c311f.jpg"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$13</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section2">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(2);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://s.yimg.com/zp/MerchandiseImages/8B20609F11-SP-8717103.jpg"
+          alt="" class="main_img2" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/c51dd9a5576841059d31a83500d4d926_9366/Camiseta_3_Rayas_Negro_CW1202_01_laydown.jpg" alt="" class="thumbnail">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/81OFVB3I73L._AC_UX342_.jpg" alt="" class="thumbnail">
+        <img
+          src="https://images-na.ssl-images-amazon.com/images/I/51CH81JtWiL.__AC_SY445_SX342_QL70_ML2_.jpg"
+          alt=""  class="thumbnail">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0746/9445/products/AJ8834_03.JPG"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$12</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section3">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(3);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://ph-live-01.slatic.net/p/de3d1dfd64af42912963af91aca6d2d6.jpg"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://ph-live-01.slatic.net/p/de3d1dfd64af42912963af91aca6d2d6.jpg" alt="" class="thumbnail">
+        <img src="https://sg-live-01.slatic.net/p/07964d7e810b9a213c2fdb17e2c15718.jpg" alt="" class="thumbnail">
+        <img
+          src="https://thumblr.uniid.it/product/157075/3461e000e61e.jpg"
+          alt=""  class="thumbnail">
+        <img
+          src="https://assets.adidas.com/images/w_600,f_auto,q_auto/ed6de4d1ce9a4a2693eaac5a012086b6_9366/Essentials_Big_Logo_Tee_Blue_GK9122_01_laydown.jpg"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$13</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section4">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(4);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://u-mercari-images.mercdn.net/photos/m98022461722_1.jpg?width=3840&quality=75&format=pjpg&auto=webp&_=1680319983"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://u-mercari-images.mercdn.net/photos/m98022461722_1.jpg?width=3840&quality=75&format=pjpg&auto=webp&_=1680319983" alt="" class="thumbnail">
+        <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/a0a96d45c35140abb7adab7c010ccaf3_9366/Camiseta_Titular_Colombia_20-21_Amarillo_FT1476_01_laydown.jpg" alt="" class="thumbnail">
+        <img
+          src="https://assets.adidas.com/images/w_600,f_auto,q_auto/7aaeb7c7468443a49fd6ab73012f0292_9366/Camiseta_Titular_Seleccion_Colombia_Amarillo_FT1474_01_laydown.jpg"
+          alt=""  class="thumbnail">
+        <img
+          src="https://mirodeportes.com/wp-content/uploads/2018/12/adidas_colombia_amarilla_loca.jpg"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$12</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section5">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(5);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ccfac127187d4b80ba16abac00dce8da_9366/Camiseta_UNISEX_Azul_GD2802_01_laydown.jpg"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ccfac127187d4b80ba16abac00dce8da_9366/Camiseta_UNISEX_Azul_GD2802_01_laydown.jpg" alt="" class="thumbnail">
+        <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/63eea8f6790145d5a04fa9e60108ed90_9366/Camiseta_Monogram_Square_Azul_ED7044_01_laydown.jpg" alt="" class="thumbnail">
+        <img
+          src="https://ae01.alicdn.com/kf/Ha387fce7d67c467c96828cb9861867ad3/Camiseta-Original-nueva-llegada-Adidas-Originals-MONO-cuadrado-para-Hombre-Ropa-Deportiva-de-manga-corta.jpg"
+          alt=""  class="thumbnail">
+        <img
+          src="https://www.tradeinn.com/f/13854/138541836/adidas-originals-camiseta-gonz-photo.jpg"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$13</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section6">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(6);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0413/0416/2471/products/HD6875_APP_photo_back-center_white.jpg?v=1678281752"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://cdn.shopify.com/s/files/1/0413/0416/2471/products/HD6875_APP_photo_back-center_white.jpg?v=1678281752" alt="" class="thumbnail">
+        <img src="https://img.ks-sport.cz/vel4/5/59/59592640.jpg" alt="" class="thumbnail">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0240/0529/products/IB6051_1800x1800.jpg?v=1660145787"
+          alt=""  class="thumbnail">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0240/0529/products/HG0698_large.jpg?v=1660143231"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$12</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section7">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(7);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://m.media-amazon.com/images/I/21vbmibiaNL._AC_UY1100_.jpg"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://m.media-amazon.com/images/I/21vbmibiaNL._AC_UY1100_.jpg" alt="" class="thumbnail">
+        <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/be70f79f9ce043f6ab7dac5a01296bb2_9366/Essentials_Embroidered_Small_Logo_Tee_Grey_GK9641_01_laydown.jpg" alt="" class="thumbnail">
+        <img
+          src="https://falabella.scene7.com/is/image/FalabellaCO/4188270_1?wid=800&hei=800&qlt=70"
+          alt=""  class="thumbnail">
+        <img
+          src="https://falabella.scene7.com/is/image/FalabellaCO/3739558_1?wid=800&hei=800&qlt=70"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$13</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section8">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(8);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://assetmanagerpim-res.cloudinary.com/images/w_1560/q_100/57b5b5805ab44ae3affbac8700be02e2_9366/GJ9966_01_laydown.WebP"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://assetmanagerpim-res.cloudinary.com/images/w_1560/q_100/57b5b5805ab44ae3affbac8700be02e2_9366/GJ9966_01_laydown.WebP" alt="" class="thumbnail">
+        <img src="https://www.tradeinn.com/f/13792/137927020/adidas-own-the-run-3-stripes-running-%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%B8%D0%B9-%D0%A0%D1%83%D0%BA%D0%B0%D0%B2-%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D0%BA%D0%B0.jpg" alt="" class="thumbnail">
+        <img
+          src="https://www.tradeinn.com/f/13766/137667932/adidas-run-it-3-stripes-%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D0%BA%D0%B0-%D1%81-%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%B8%D0%BC-%D1%80%D1%83%D0%BA%D0%B0%D0%B2%D0%BE%D0%BC.jpg"
+          alt=""  class="thumbnail">
+        <img
+          src="https://www.tradeinn.com/f/13842/138423703/adidas-3-stripes-%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D0%BA%D0%B0-%D0%A1-%D0%9A%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%B8%D0%BC-%D0%A0%D1%83%D0%BA%D0%B0%D0%B2%D0%BE%D0%BC.jpg"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$12</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section9">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(9);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://www.geomix.at/shop/images/0-0-115567.png"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://www.geomix.at/shop/images/0-0-115567.png" alt="" class="thumbnail">
+        <img src="https://falabella.scene7.com/is/image/FalabellaCO/50570166_2?wid=800&hei=800&qlt=70" alt="" class="thumbnail">
+        <img
+          src="https://i1.t4s.cz/products/aj0998-411/178193.jpg"
+          alt=""  class="thumbnail">
+        <img
+          src="https://m.media-amazon.com/images/I/51Th9gYVxIL._AC_UY350_.jpg"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$13</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section10">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(10);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://www.innvictus.com/medias/playera-nike-sportswear-in-BV7595-886-1.jpg?context=bWFzdGVyfGltYWdlc3w3Mjk2OHxpbWFnZS9qcGVnfGltYWdlcy9oNDkvaGU2Lzk4MDg0ODY1MzExMDIuanBnfGFkNjVkMTQ0NzNiNmY0ZWI5ZWJiN2JlNjViYmUyMzdmOGJlNWI0OGY1N2ZkYWJkN2ViMDhlZWFkNjQ0YzFiOGM"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://www.innvictus.com/medias/playera-nike-sportswear-in-BV7595-886-1.jpg?context=bWFzdGVyfGltYWdlc3w3Mjk2OHxpbWFnZS9qcGVnfGltYWdlcy9oNDkvaGU2Lzk4MDg0ODY1MzExMDIuanBnfGFkNjVkMTQ0NzNiNmY0ZWI5ZWJiN2JlNjViYmUyMzdmOGJlNWI0OGY1N2ZkYWJkN2ViMDhlZWFkNjQ0YzFiOGM" alt="" class="thumbnail">
+        <img src="https://www.innvictus.com/medias/playera-nike-sportswear-in-BV7595-011-1.jpg?context=bWFzdGVyfGltYWdlc3w3MjM1M3xpbWFnZS9qcGVnfGltYWdlcy9oNmYvaDYyLzk2NzQwNTIzMzc2OTQuanBnfGRiMzQxYTIwNGVmMDIyZDNhM2M1OWMwOTY1Yzg3MTNmOGQ5NjJhNDVlNGM4YzdmZjU5YzcyODY5NDM1NzI1MmI" alt="" class="thumbnail">
+        <img
+          src="https://www.innvictus.com/medias/playera-nike-sportswear-in-BV7595-100-1.png?context=bWFzdGVyfGltYWdlc3wxMDY5NDN8aW1hZ2UvcG5nfGltYWdlcy9oM2QvaGVlLzk4NDgyODkwMzQyNzAucG5nfDFlMmI5NGM4MGY5YjJiZGZhMmYwMGEwYjQxZWIzZjFkYmM5NzBkYWEzZWU5NzU5MTZjMDc4NGQyMmVkZmFjNWU"
+          alt=""  class="thumbnail">
+        <img
+          src="https://www.innvictus.com/medias/playera-nike-sportswear-in-BV7595-011-1.jpg?context=bWFzdGVyfGltYWdlc3w3NzczfGltYWdlL2pwZWd8aW1hZ2VzL2gwNS9oYjIvOTY3NDA1MjY2NTM3NC5qcGd8MWJhZDI4MGFlZTcyNDg4ZjhlOWY3MGU0MTZiYmQ2NDllZmY0MjkyZDM2ZWEzM2QxNGY3MmI5ZWJjOTQwNjMwMw"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$12</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  
+  <!--De aqui en adelante son la soguiente sección de las camisetas-->
+  <Section class="product_view" id="section11">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(11);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://simg.nicepng.com/png/small/816-8165799_camisa-manga-larga-camisa-de-vestir-de-rayas.png"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://preview.free3d.com/img/2018/11/2202379144212251963/j8kyygnw.jpg" alt="" class="thumbnail">
+        <img src="https://preview.free3d.com/img/2018/11/2202379149178307900/v864iw42.jpg" alt="" class="thumbnail">
+        <img
+          src="https://preview.free3d.com/img/2018/11/2202379144212251963/j8kyygnw.jpg"
+          alt=""  class="thumbnail">
+        <img
+          src="https://preview.free3d.com/img/2018/11/2202379144212251963/j8kyygnw.jpg"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$13</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section12">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(12);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://cdnebasnet.com/data/cache/opt_jpg/eshop/314/images/products/i/4/5/p45/0000-jach0-12177780lb-1-1600801871-350x350.jpg"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://cdnebasnet.com/data/cache/opt_jpg/eshop/314/images/products/i/4/5/p45/0000-jach0-12177780lb-1-1600801871-350x350.jpg" alt="" class="thumbnail">
+        <img src="https://cdnebasnet.com/data/cache/opt_jpg/eshop/314/images/products/i/4/5/p45/0000-jach0-12177780lb-1-1600801871-350x350.jpg" alt="" class="thumbnail">
+        <img
+          src="https://cdnebasnet.com/data/cache/opt_jpg/eshop/314/images/products/i/4/5/p45/0000-jach0-12177780lb-1-1600801871-350x350.jpg"
+          alt=""  class="thumbnail">
+        <img
+          src="https://cdnebasnet.com/data/cache/opt_jpg/eshop/314/images/products/i/4/5/p45/0000-jach0-12177780lb-1-1600801871-350x350.jpg"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$12</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section13">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(13);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdTcxtUZzoTlowjnVVZ1vk9m0gzjRR7uCfYiH0Hg7UGpbZRemMDyv0E2kAqu8Go8TIMFo&usqp=CAU"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdTcxtUZzoTlowjnVVZ1vk9m0gzjRR7uCfYiH0Hg7UGpbZRemMDyv0E2kAqu8Go8TIMFo&usqp=CAU" alt="" class="thumbnail">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdTcxtUZzoTlowjnVVZ1vk9m0gzjRR7uCfYiH0Hg7UGpbZRemMDyv0E2kAqu8Go8TIMFo&usqp=CAU" alt="" class="thumbnail">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdTcxtUZzoTlowjnVVZ1vk9m0gzjRR7uCfYiH0Hg7UGpbZRemMDyv0E2kAqu8Go8TIMFo&usqp=CAU"
+          alt=""  class="thumbnail">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdTcxtUZzoTlowjnVVZ1vk9m0gzjRR7uCfYiH0Hg7UGpbZRemMDyv0E2kAqu8Go8TIMFo&usqp=CAU"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$13</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <Section class="product_view" id="section14">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(14);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://images.beautifulhalo.com/images/392x588/202108/L/men-s-formal-shirt-polka-dot-print-long-sleeve-spread-collar-button-up-fitted-shirt_1627990362888.jpg"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://images.beautifulhalo.com/images/392x588/202108/L/men-s-formal-shirt-polka-dot-print-long-sleeve-spread-collar-button-up-fitted-shirt_1627990362888.jpg" alt="" class="thumbnail">
+        <img src="https://images.beautifulhalo.com/images/392x588/202108/L/men-s-formal-shirt-polka-dot-print-long-sleeve-spread-collar-button-up-fitted-shirt_1627990362888.jpg" alt="" class="thumbnail">
+        <img
+          src="https://images.beautifulhalo.com/images/392x588/202108/L/men-s-formal-shirt-polka-dot-print-long-sleeve-spread-collar-button-up-fitted-shirt_1627990362888.jpg"
+          alt=""  class="thumbnail">
+        <img
+          src="https://images.beautifulhalo.com/images/392x588/202108/L/men-s-formal-shirt-polka-dot-print-long-sleeve-spread-collar-button-up-fitted-shirt_1627990362888.jpg"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$12</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section15">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(15);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://http2.mlstatic.com/D_NQ_NP_939141-CBT48083157403_102021-O.jpg"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_939141-CBT48083157403_102021-O.jpg" alt="" class="thumbnail">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_939141-CBT48083157403_102021-O.jpg" alt="" class="thumbnail">
+        <img
+          src="https://http2.mlstatic.com/D_NQ_NP_939141-CBT48083157403_102021-O.jpg"
+          alt=""  class="thumbnail">
+        <img
+          src="https://http2.mlstatic.com/D_NQ_NP_939141-CBT48083157403_102021-O.jpg"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$13</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section16">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(16);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://m.media-amazon.com/images/I/61aC2jyu3uL._AC_UY1100_.jpg"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://m.media-amazon.com/images/I/71id+wwTw-L._AC_UY1100_.jpg" alt="" class="thumbnail">
+        <img src="https://m.media-amazon.com/images/I/71id+wwTw-L._AC_UY1100_.jpg" alt="" class="thumbnail">
+        <img
+          src="https://m.media-amazon.com/images/I/71id+wwTw-L._AC_UY1100_.jpg"
+          alt=""  class="thumbnail">
+        <img
+          src="https://m.media-amazon.com/images/I/71id+wwTw-L._AC_UY1100_.jpg"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$12</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section17">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(17);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://m.media-amazon.com/images/I/61TFCVoeYAL._AC_SL1500_.jpg"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://m.media-amazon.com/images/I/61boGj40XTL._AC_SL1500_.jpg" alt="" class="thumbnail">
+        <img src="https://m.media-amazon.com/images/I/61boGj40XTL._AC_SL1500_.jpg" alt="" class="thumbnail">
+        <img
+          src="https://m.media-amazon.com/images/I/61boGj40XTL._AC_SL1500_.jpg"
+          alt=""  class="thumbnail">
+        <img
+          src="https://m.media-amazon.com/images/I/61boGj40XTL._AC_SL1500_.jpg"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$13</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section18">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(18);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://m.media-amazon.com/images/I/61cd5eAfy1L._AC_SX385_.jpg"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://cdn.shopify.com/s/files/1/0253/9628/1399/products/fashion-brand-long-sleeve-shirt-men-formal-casual-male-dress-shirt-size-j-3xl-men-fashion-447.jpg?v=1637535720&width=1445" alt="" class="thumbnail">
+        <img src="https://cdn.shopify.com/s/files/1/0253/9628/1399/products/fashion-brand-long-sleeve-shirt-men-formal-casual-male-dress-shirt-size-j-3xl-men-fashion-447.jpg?v=1637535720&width=1445" alt="" class="thumbnail">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0253/9628/1399/products/fashion-brand-long-sleeve-shirt-men-formal-casual-male-dress-shirt-size-j-3xl-men-fashion-447.jpg?v=1637535720&width=1445"
+          alt=""  class="thumbnail">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0253/9628/1399/products/fashion-brand-long-sleeve-shirt-men-formal-casual-male-dress-shirt-size-j-3xl-men-fashion-447.jpg?v=1637535720&width=1445"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$12</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section19">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(19);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://m.media-amazon.com/images/I/61vv7KAvRgL._AC_SX522_.jpg"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/61X4hiwZP3L._AC_SR462,693_.jpg" alt="" class="thumbnail">
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/61X4hiwZP3L._AC_SR462,693_.jpg" alt="" class="thumbnail">
+        <img
+          src="https://images-eu.ssl-images-amazon.com/images/I/61X4hiwZP3L._AC_SR462,693_.jpg"
+          alt=""  class="thumbnail">
+        <img
+          src="https://images-eu.ssl-images-amazon.com/images/I/61X4hiwZP3L._AC_SR462,693_.jpg"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$13</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+  <Section class="product_view" id="section20">
+    <div class="product_images">
+      <div class="close_btn toggle-button">
+        <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="toggleSection(20);"></i>
+      </div>
+      <div class="img">
+        <img
+          src="https://m.media-amazon.com/images/I/610frx2Ci3L._AC_SL1500_.jpg"
+          alt="" class="main_img" id="imagen2">
+      </div>
+      <div class="img_done">
+        <img src="https://i5.walmartimages.com/asr/f6be27f2-128b-4fe4-a435-4fc8be0df6f0.71207b6a6d029252e79e63ee08eeccc9.jpeg?odnHeight=432&odnWidth=320&odnBg=FFFFFF" alt="" class="thumbnail">
+        <img src="https://i5.walmartimages.com/asr/f6be27f2-128b-4fe4-a435-4fc8be0df6f0.71207b6a6d029252e79e63ee08eeccc9.jpeg?odnHeight=432&odnWidth=320&odnBg=FFFFFF" alt="" class="thumbnail">
+        <img
+          src="https://i5.walmartimages.com/asr/f6be27f2-128b-4fe4-a435-4fc8be0df6f0.71207b6a6d029252e79e63ee08eeccc9.jpeg?odnHeight=432&odnWidth=320&odnBg=FFFFFF"
+          alt=""  class="thumbnail">
+        <img
+          src="https://i5.walmartimages.com/asr/f6be27f2-128b-4fe4-a435-4fc8be0df6f0.71207b6a6d029252e79e63ee08eeccc9.jpeg?odnHeight=432&odnWidth=320&odnBg=FFFFFF"
+          alt="" class="thumbnail">
+      </div>
+    </div>
+    <div class="product_information">
+      <div class="title">Home / Tshirt</div>
+      <div class="subtitle">Men's Fashion Tshirt</div>
+      <div class="price">$12</div>
+      <div class="select">
+        <input type="text" class="Media" placeholder="Write Size">
+      </div>
+      <div class="add_car">
+        <input type="number" placeholder="1">
+        <button>Add to Cart</button>
+      </div>
+      <div class="description">
+        <div class="title2">Product Details</div>
+        <div class="desc">
+          Introducing the Adidas shirt, a modern and versatile garment that combines style, quality and comfort.
+          Designed for sports and fashion lovers, this shirt is perfect both for your daily activities and for your
+          training sessions. With a modern and slim fit, the Adidas shirt highlights your figure and provides a stylish
+          appearance. Its classic design features the iconic Adidas logo on the chest, giving it a distinctive and
+          authentic touch. Plus, it's available in a wide range of colors to suit your personal style.
+        </div>
+      </div>
+    </div>
+  </Section>
+
+
+
+
     <!--FREE SECTION THE DOLLARS FROM THE WITH NIN-->
     <section class="information" id="INFORMATION">
       <div class="init">
@@ -796,7 +1687,7 @@
     <!--Seccion final footer-->
     <footer class="footer" id="Footer">
       <div class="one">
-        <div class="logo">DRHOUSE</div>
+        <div class="logo">ARSHOP</div>
         <div class="titles">Contact</div>
         <div class="title">
           <span>Address</span> 562 wellington Road, street 32, San Francisco
@@ -849,8 +1740,15 @@
         </div>
       </div>
     </footer>
+
+
+    
+
+
+
+
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script>
-  <script src="JS/logout.js"></script>
+  <script src="JS/products.js"></script>
   <script src="JS/main.js"></script>
 </html>
