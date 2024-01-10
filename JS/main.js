@@ -77,3 +77,46 @@ function changeMainImage(mainImageId, thumbnail) {
     const thumbnailSrc = thumbnail.src;
     mainImage.src = thumbnailSrc;
   }
+
+
+
+
+  function addToCart(imageId) {
+    // Obtén los valores específicos del producto
+    var productContainer = event.target.closest(".product_information");
+    var imageSrc = document.getElementById(imageId).src;
+    var title = productContainer.querySelector(".subtitle").textContent;
+    var priceString = productContainer.querySelector(".price").textContent;
+    var price = parseFloat(priceString.replace("$", "").trim());
+
+    // Encuentra el input de talla específico para este producto dentro del contenedor
+    var sizeInput = productContainer.querySelector(".select input[type='text']");
+
+    // Obtén la talla del input actual
+    var size = sizeInput ? sizeInput.value : "";
+
+    // Obtén la cantidad directamente del input
+    var quantityInput = productContainer.querySelector(".add_car input[type='number']");
+    var quantity = quantityInput ? quantityInput.value : 1;
+
+    // Crea un objeto con la información del producto
+    var product = {
+        imageSrc: imageSrc,
+        title: title,
+        price: price,
+        size: size,
+        quantity: quantity,
+    };
+
+    // Recupera el carrito de localStorage
+    var cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+    // Agrega el nuevo producto al carrito
+    cart.push(product);
+
+    // Guarda el carrito actualizado en localStorage
+    localStorage.setItem("cart", JSON.stringify(cart));
+
+    alert("Product added to cart!");
+}
+

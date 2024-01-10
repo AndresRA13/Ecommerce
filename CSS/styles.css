@@ -8,6 +8,42 @@
   scroll-behavior: smooth;
   font-family: 'poppins', sans-serif;
 }
+.product-in-cart {
+  /* Agrega los estilos que desees para los productos en el carrito */
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.cartContainer{
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.cart-item{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.cart-item img{
+  width: 200px;
+  margin: 0px 10px 10px 30px;
+}
+.cart-details{
+  margin-right: 50px;
+}
+.totalContainer{
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 25px;
+}
+.totalContainer h2{
+  font-size: 24px;
+  font-weight: 500;
+}
+
 button {
   width: 145px;
   height: 45px;
@@ -1146,6 +1182,15 @@ input[type="submit"] {
 
 /*Personalización tablets y telefonos*/
 @media screen and (max-width: 800px) {
+  /*Carrito pagar*/
+  .totalContainer{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: unset;
+  }
   /*Personalización de los productos adaptables*/
   .product_content {
     display: flex;

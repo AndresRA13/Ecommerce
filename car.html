@@ -115,83 +115,17 @@
       </div>
     </nav>
 
-    <!--SECCIÓN DEL CARRITO-->
-    <section class="car" id="CAR">
-      <div class="car_prin">
-        <div class="title">#car</div>
-        <div class="subtitle">add your coupon code & Save upto 70%!</div>
-      </div>
-      <div class="carrito">
-        <p class="carrito_vacio">
-          tu carrito esta vacio <i class="fa-solid fa-face-thinking"></i>
-        </p>
-      </div>
-      <div class="carrito-productos">
-        <div class="carrito_producto">
-          <img
-            src="https://ph-live-01.slatic.net/p/de3d1dfd64af42912963af91aca6d2d6.jpg"
-            alt=""
-          />
-          <div class="carrito_titulo">
-            <small>Nombre:</small>
-            <h4 class="title">camiseta01</h4>
-          </div>
-          <div class="carrito-producto-cantidad">
-            <small>Cantidad</small>
-            <p>1</p>
-          </div>
-          <div class="carrito-producto-precio">
-            <small>Precio</small>
-            <p>$13</p>
-          </div>
-          <div class="carrito-producto-subtotal">
-            <small>Talla</small>
-            <p>XL</p>
-          </div>
-          <button class="carrito-producto-eliminar">
-            <i class="fa-sharp fa-solid fa-trash"></i>
-          </button>
-        </div>
-        <div class="carrito_producto">
-          <img
-            src="https://www.urbanstore.cz/assets/files/catalog/item-pictures/7e9a74a0-1c91-4fb5-a1ee-44a1b97d3b3c-20223c311f.jpg"
-            alt=""
-          />
-          <div class="carrito_titulo">
-            <small>Nombre:</small>
-            <h4 class="title">Camiseta02</h4>
-          </div>
-          <div class="carrito-producto-cantidad">
-            <small>Cantidad</small>
-            <p>2</p>
-          </div>
-          <div class="carrito-producto-precio">
-            <small>Precio</small>
-            <p>$12</p>
-          </div>
-          <div class="carrito-producto-subtotal">
-            <small>Talla</small>
-            <p>M</p>
-          </div>
-          <button class="carrito-producto-eliminar">
-            <i class="fa-sharp fa-solid fa-trash"></i>
-          </button>
-        </div>
-      </div>
-      <div class="carrito-acciones">
-        <div class="carrito-acciones-isquierda">
-          <button class="carrito-acciones-vaciar carrito">Vaciar</button>
-        </div>
-        <div class="carrito-acciones-derecha">
-          <div class="carrito-acciones-total">
-            <p>Total:</p>
-            <p id="total">$37</p>
-          </div>
-          <button class="carrito-acciones-comprar carrito">Comprar</button>
-        </div>
-      </div>
-    </section>
+    <div id="cartContainer" class="cartContainer"></div>
+    <div id="totalContainer" class="totalContainer">
+      <h2>Total: $<span id="totalAmount">0</span></h2>
+      <button id="payButton" onclick="redirectToPayPal()">Pagar</button>
+    </div>
+
+
+
+
   </body>
   <script src="JS/main.js"></script>
+  <script src="JS/car.js"></script>
   <script src="JS/products.js"></script>
 </html>
