@@ -71,6 +71,11 @@ function displayCart() {
   
     // Vuelve a mostrar el carrito
     displayCart();
+    Swal.fire({
+        title: "Felicidades!",
+        text: "Se elimino correctamente!",
+        icon: "success"
+      });
   }
   
   // Utiliza el evento 'storage' para detectar cambios en localStorage

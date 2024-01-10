@@ -117,6 +117,10 @@ function changeMainImage(mainImageId, thumbnail) {
     // Guarda el carrito actualizado en localStorage
     localStorage.setItem("cart", JSON.stringify(cart));
 
-    alert("Product added to cart!");
+    Swal.fire({
+        title: "Excelente!",
+        text: "Se agrego al carrito!!",
+        icon: "success"
+      });
 }
 
