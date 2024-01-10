@@ -82,3 +82,6 @@ function sobre(){
 function contacto(){
     window.location.href = 'contact.html';
 }
+function car(){
+    window.location.href = 'car.html';
+}
