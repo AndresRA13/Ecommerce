@@ -66,36 +66,14 @@ window.addEventListener('resize', ()=>{
 });
 
 
-
+//**Function redirect page location */
 function redirectToPage(page) {
     window.location.href = `${page}.html`;
 }
 
-// Ejemplos de uso:
-// redirectToPage('index');
-// redirectToPage('shop');
-// redirectToPage('blog');
-// redirectToPage('sobre');
-// redirectToPage('contacto');
-// redirectToPage('car');
 
-
-/**Functions for each */
-function inicio(){
-    window.location.href = 'index.html';
-}
-function shop(){
-    window.location.href = 'shop.html';
-}
-function blog(){
-    window.location.href = 'blog.html';
-}
-function sobre(){
-    window.location.href = 'sobre.html';
-}
-function contacto(){
-    window.location.href = 'contact.html';
-}
-function car(){
-    window.location.href = 'car.html';
-}
+function changeMainImage(mainImageId, thumbnail) {
+    const mainImage = document.getElementById(mainImageId);
+    const thumbnailSrc = thumbnail.src;
+    mainImage.src = thumbnailSrc;
+  }
