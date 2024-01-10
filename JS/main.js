@@ -66,6 +66,20 @@ window.addEventListener('resize', ()=>{
 });
 
 
+
+function redirectToPage(page) {
+    window.location.href = `${page}.html`;
+}
+
+// Ejemplos de uso:
+// redirectToPage('index');
+// redirectToPage('shop');
+// redirectToPage('blog');
+// redirectToPage('sobre');
+// redirectToPage('contacto');
+// redirectToPage('car');
+
+
 /**Functions for each */
 function inicio(){
     window.location.href = 'index.html';

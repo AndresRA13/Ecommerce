@@ -19,101 +19,101 @@
   </head>
   <body>
     <nav class="nav container">
-      <p class="nav__img">ARSHOP</p>
-
-      <div class="nav__hamburguer"></div>
-
-      <div class="nav__overlay">
-        <ul class="nav__menu">
-          <li class="nav__item" onclick="inicio();">
-            <a href="#" class="nav__link">Inicio</a>
-          </li>
-
-          <li class="nav__item">
-            <span class="nav__parent"
-              >Tienda
-              <img src="./images/icon-arrow-down.svg" class="nav__arrow" />
-            </span>
-
-            <ul class="nav__inner">
-              <li class="nav__dropdown" onclick="shop();">
-                <a href="#" class="nav__link">
-                  <img src="./images/icon-todo.svg" class="nav__illustration" />
-                  Todo
-                </a>
-              </li>
-
-              <li class="nav__dropdown" onclick="mujer();">
-                <a href="#" class="nav__link">
-                  <img
-                    src="./images/icon-calendar.svg"
-                    class="nav__illustration"
-                  />
-                  Ropa Mujer
-                </a>
-              </li>
-
-              <li class="nav__dropdown" onclick="hombre();">
-                <a href="#" class="nav__link">
-                  <img
-                    src="./images/icon-reminders.svg"
-                    class="nav__illustration"
-                  />
-                  Ropa Hombre
-                </a>
-              </li>
-
-              <li class="nav__dropdown" onclick="niño();">
-                <a href="#" class="nav__link">
-                  <img
-                    src="./images/icon-planning.svg"
-                    class="nav__illustration"
-                  />
-                  Ropa Niños
-                </a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="nav__item">
-            <span class="nav__parent"
-              >Blog
-              <img src="./images/icon-arrow-down.svg" class="nav__arrow" />
-            </span>
-
-            <ul class="nav__inner">
-              <li class="nav__dropdown" onclick="blog();">
-                <a href="blog.html" class="nav__link">Blog</a>
-              </li>
-
-              <li class="nav__dropdown" onclick="sobre();">
-                <a href="#" class="nav__link">Sobre Nosotros</a>
-              </li>
-
-              <li class="nav__dropdown" onclick="politic();">
-                <a href="#" class="nav__link">Politicas y privacidad</a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="nav__item" onclick="contacto();">
-            <a href="" class="nav__link">Contacto</a>
-          </li>
-
-          <li class="nav__item" onclick="about();">
-            <a href="#" class="nav__link">About</a>
-          </li>
-
-          <li class="nav__login" onclick="car();">
-            <a href="#" class="nav__sign" id="logout">Carrito</a>
-          </li>
-
-          <li class="nav__login nav__login--border" onclick="favorite();">
-            <a href="#" class="nav__sign">Favoritos</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        <p class="nav__img">ARSHOP</p>
+  
+        <div class="nav__hamburguer"></div>
+  
+        <div class="nav__overlay">
+          <ul class="nav__menu">
+            <li class="nav__item" onclick="redirectToPage('index');">
+              <a href="#" class="nav__link">Inicio</a>
+            </li>
+  
+            <li class="nav__item">
+              <span class="nav__parent"
+                >Tienda
+                <img src="./images/icon-arrow-down.svg" class="nav__arrow" />
+              </span>
+  
+              <ul class="nav__inner">
+                <li class="nav__dropdown" onclick="redirectToPage('shop');">
+                  <a href="#" class="nav__link">
+                    <img src="./images/icon-todo.svg" class="nav__illustration" />
+                    Todo
+                  </a>
+                </li>
+  
+                <li class="nav__dropdown" onclick="redirectToPage('');">
+                  <a href="#" class="nav__link">
+                    <img
+                      src="./images/icon-calendar.svg"
+                      class="nav__illustration"
+                    />
+                    Ropa Mujer
+                  </a>
+                </li>
+  
+                <li class="nav__dropdown" onclick="redirectToPage('');">
+                  <a href="#" class="nav__link">
+                    <img
+                      src="./images/icon-reminders.svg"
+                      class="nav__illustration"
+                    />
+                    Ropa Hombre
+                  </a>
+                </li>
+  
+                <li class="nav__dropdown" onclick="redirectToPage('');">
+                  <a href="#" class="nav__link">
+                    <img
+                      src="./images/icon-planning.svg"
+                      class="nav__illustration"
+                    />
+                    Ropa Niños
+                  </a>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="nav__item">
+              <span class="nav__parent"
+                >Blog
+                <img src="./images/icon-arrow-down.svg" class="nav__arrow" />
+              </span>
+  
+              <ul class="nav__inner">
+                <li class="nav__dropdown" onclick="redirectToPage('blog');">
+                  <a href="blog.html" class="nav__link">Blog</a>
+                </li>
+  
+                <li class="nav__dropdown" onclick="redirectToPage('sobre');">
+                  <a href="#" class="nav__link">Sobre Nosotros</a>
+                </li>
+  
+                <li class="nav__dropdown" onclick="redirectToPage('politic');">
+                  <a href="#" class="nav__link">Politicas y privacidad</a>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="nav__item" onclick="redirectToPage('contact');">
+              <a href="" class="nav__link">Contacto</a>
+            </li>
+  
+            <li class="nav__item" onclick="redirectToPage('about');">
+              <a href="#" class="nav__link">About</a>
+            </li>
+  
+            <li class="nav__login" onclick="redirectToPage('car');">
+              <a href="#" class="nav__sign" id="logout">Carrito</a>
+            </li>
+  
+            <li class="nav__login nav__login--border" onclick="redirectToPage('favorite');">
+              <a href="#" class="nav__sign">Favoritos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
     <section class="about_main" id="ABOUT">
       <div class="about_center">

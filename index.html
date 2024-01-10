@@ -26,7 +26,7 @@
 
       <div class="nav__overlay">
         <ul class="nav__menu">
-          <li class="nav__item" onclick="inicio();">
+          <li class="nav__item" onclick="redirectToPage('index');">
             <a href="#" class="nav__link">Inicio</a>
           </li>
 
@@ -37,14 +37,14 @@
             </span>
 
             <ul class="nav__inner">
-              <li class="nav__dropdown" onclick="shop();">
+              <li class="nav__dropdown" onclick="redirectToPage('shop');">
                 <a href="#" class="nav__link">
                   <img src="./images/icon-todo.svg" class="nav__illustration" />
                   Todo
                 </a>
               </li>
 
-              <li class="nav__dropdown" onclick="mujer();">
+              <li class="nav__dropdown" onclick="redirectToPage('');">
                 <a href="#" class="nav__link">
                   <img
                     src="./images/icon-calendar.svg"
@@ -54,7 +54,7 @@
                 </a>
               </li>
 
-              <li class="nav__dropdown" onclick="hombre();">
+              <li class="nav__dropdown" onclick="redirectToPage('');">
                 <a href="#" class="nav__link">
                   <img
                     src="./images/icon-reminders.svg"
@@ -64,7 +64,7 @@
                 </a>
               </li>
 
-              <li class="nav__dropdown" onclick="niño();">
+              <li class="nav__dropdown" onclick="redirectToPage('');">
                 <a href="#" class="nav__link">
                   <img
                     src="./images/icon-planning.svg"
@@ -83,33 +83,33 @@
             </span>
 
             <ul class="nav__inner">
-              <li class="nav__dropdown" onclick="blog();">
+              <li class="nav__dropdown" onclick="redirectToPage('blog');">
                 <a href="blog.html" class="nav__link">Blog</a>
               </li>
 
-              <li class="nav__dropdown" onclick="sobre();">
+              <li class="nav__dropdown" onclick="redirectToPage('sobre');">
                 <a href="#" class="nav__link">Sobre Nosotros</a>
               </li>
 
-              <li class="nav__dropdown" onclick="politic();">
+              <li class="nav__dropdown" onclick="redirectToPage('politic');">
                 <a href="#" class="nav__link">Politicas y privacidad</a>
               </li>
             </ul>
           </li>
 
-          <li class="nav__item" onclick="contacto();">
+          <li class="nav__item" onclick="redirectToPage('contact');">
             <a href="" class="nav__link">Contacto</a>
           </li>
 
-          <li class="nav__item" onclick="about();">
+          <li class="nav__item" onclick="redirectToPage('about');">
             <a href="#" class="nav__link">About</a>
           </li>
 
-          <li class="nav__login" onclick="car();">
+          <li class="nav__login" onclick="redirectToPage('car');">
             <a href="#" class="nav__sign" id="logout">Carrito</a>
           </li>
 
-          <li class="nav__login nav__login--border" onclick="favorite();">
+          <li class="nav__login nav__login--border" onclick="redirectToPage('favorite');">
             <a href="#" class="nav__sign">Favoritos</a>
           </li>
         </ul>
