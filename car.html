@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/de820b69c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>AR | Inicio</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+  </head>
+  <body>
+    <nav class="nav container">
+      <p class="nav__img">ARSHOP</p>
+
+      <div class="nav__hamburguer"></div>
+
+      <div class="nav__overlay">
+        <ul class="nav__menu">
+          <li class="nav__item" onclick="inicio();">
+            <a href="#" class="nav__link">Inicio</a>
+          </li>
+
+          <li class="nav__item">
+            <span class="nav__parent"
+              >Tienda
+              <img src="./images/icon-arrow-down.svg" class="nav__arrow" />
+            </span>
+
+            <ul class="nav__inner">
+              <li class="nav__dropdown" onclick="shop();">
+                <a href="#" class="nav__link">
+                  <img src="./images/icon-todo.svg" class="nav__illustration" />
+                  Todo
+                </a>
+              </li>
+
+              <li class="nav__dropdown" onclick="mujer();">
+                <a href="#" class="nav__link">
+                  <img
+                    src="./images/icon-calendar.svg"
+                    class="nav__illustration"
+                  />
+                  Ropa Mujer
+                </a>
+              </li>
+
+              <li class="nav__dropdown" onclick="hombre();">
+                <a href="#" class="nav__link">
+                  <img
+                    src="./images/icon-reminders.svg"
+                    class="nav__illustration"
+                  />
+                  Ropa Hombre
+                </a>
+              </li>
+
+              <li class="nav__dropdown" onclick="niño();">
+                <a href="#" class="nav__link">
+                  <img
+                    src="./images/icon-planning.svg"
+                    class="nav__illustration"
+                  />
+                  Ropa Niños
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item">
+            <span class="nav__parent"
+              >Blog
+              <img src="./images/icon-arrow-down.svg" class="nav__arrow" />
+            </span>
+
+            <ul class="nav__inner">
+              <li class="nav__dropdown" onclick="blog();">
+                <a href="blog.html" class="nav__link">Blog</a>
+              </li>
+
+              <li class="nav__dropdown" onclick="sobre();">
+                <a href="#" class="nav__link">Sobre Nosotros</a>
+              </li>
+
+              <li class="nav__dropdown" onclick="politic();">
+                <a href="#" class="nav__link">Politicas y privacidad</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item" onclick="contacto();">
+            <a href="" class="nav__link">Contacto</a>
+          </li>
+
+          <li class="nav__item" onclick="about();">
+            <a href="#" class="nav__link">About</a>
+          </li>
+
+          <li class="nav__login" onclick="car();">
+            <a href="#" class="nav__sign" id="logout">Carrito</a>
+          </li>
+
+          <li class="nav__login nav__login--border" onclick="favorite();">
+            <a href="#" class="nav__sign">Favoritos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--SECCIÓN DEL CARRITO-->
+    <section class="car" id="CAR">
+      <div class="car_prin">
+        <div class="title">#car</div>
+        <div class="subtitle">add your coupon code & Save upto 70%!</div>
+      </div>
+      <div class="carrito">
+        <p class="carrito_vacio">
+          tu carrito esta vacio <i class="fa-solid fa-face-thinking"></i>
+        </p>
+      </div>
+      <div class="carrito-productos">
+        <div class="carrito_producto">
+          <img
+            src="https://ph-live-01.slatic.net/p/de3d1dfd64af42912963af91aca6d2d6.jpg"
+            alt=""
+          />
+          <div class="carrito_titulo">
+            <small>Nombre:</small>
+            <h4 class="title">camiseta01</h4>
+          </div>
+          <div class="carrito-producto-cantidad">
+            <small>Cantidad</small>
+            <p>1</p>
+          </div>
+          <div class="carrito-producto-precio">
+            <small>Precio</small>
+            <p>$13</p>
+          </div>
+          <div class="carrito-producto-subtotal">
+            <small>Talla</small>
+            <p>XL</p>
+          </div>
+          <button class="carrito-producto-eliminar">
+            <i class="fa-sharp fa-solid fa-trash"></i>
+          </button>
+        </div>
+        <div class="carrito_producto">
+          <img
+            src="https://www.urbanstore.cz/assets/files/catalog/item-pictures/7e9a74a0-1c91-4fb5-a1ee-44a1b97d3b3c-20223c311f.jpg"
+            alt=""
+          />
+          <div class="carrito_titulo">
+            <small>Nombre:</small>
+            <h4 class="title">Camiseta02</h4>
+          </div>
+          <div class="carrito-producto-cantidad">
+            <small>Cantidad</small>
+            <p>2</p>
+          </div>
+          <div class="carrito-producto-precio">
+            <small>Precio</small>
+            <p>$12</p>
+          </div>
+          <div class="carrito-producto-subtotal">
+            <small>Talla</small>
+            <p>M</p>
+          </div>
+          <button class="carrito-producto-eliminar">
+            <i class="fa-sharp fa-solid fa-trash"></i>
+          </button>
+        </div>
+      </div>
+      <div class="carrito-acciones">
+        <div class="carrito-acciones-isquierda">
+          <button class="carrito-acciones-vaciar carrito">Vaciar</button>
+        </div>
+        <div class="carrito-acciones-derecha">
+          <div class="carrito-acciones-total">
+            <p>Total:</p>
+            <p id="total">$37</p>
+          </div>
+          <button class="carrito-acciones-comprar carrito">Comprar</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

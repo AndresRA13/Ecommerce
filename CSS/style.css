@@ -15,14 +15,6 @@ body{
   font-family: 'Epilogue', sans-serif;
 }
 
-.container{
-  width: 90%;
-
-  margin: 0 auto;
-  overflow: hidden;
-  max-width: 1200px;
-}
-
 .nav{
   width: 100%;
   z-index: 100;
@@ -213,10 +205,11 @@ body{
       overflow: visible;
       z-index: 100;
       width: 100%;
+      background-color: white;
   }
 
   .nav__img{
-    margin-left: 20px;
+    margin-left: 55px;
   }
 
   .nav__hamburguer{

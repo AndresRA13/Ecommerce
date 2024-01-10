@@ -65,3 +65,20 @@ window.addEventListener('resize', ()=>{
     }
 });
 
+
+/**Functions for each */
+function inicio(){
+    window.location.href = 'index.html';
+}
+function shop(){
+    window.location.href = 'shop.html';
+}
+function blog(){
+    window.location.href = 'blog.html';
+}
+function sobre(){
+    window.location.href = 'sobre.html';
+}
+function contacto(){
+    window.location.href = 'contact.html';
+}

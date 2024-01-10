@@ -532,7 +532,7 @@ button:hover {
 
 /*Personalización del blog*/
 .blog_main{
-  display: none;
+  display: flex;
   flex-direction: column;
   width: 100%;
   height: auto;
@@ -596,7 +596,7 @@ button:hover {
 }
 /*ABOUT MAIN*/
 .about_main{
-  display: none;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -683,7 +683,7 @@ button:hover {
 
 /*Sección de contacto */
 .talk_contact{
-  display: none;
+  display:flex;
   width: 100%;
   height: auto;
   flex-direction: column;
@@ -851,7 +851,7 @@ input[type="submit"] {
 }
 /*Personalizacíon del carrito de compras*/
 .car{
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
