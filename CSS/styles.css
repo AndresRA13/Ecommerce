@@ -852,7 +852,8 @@ font-size: 30px;
   justify-content: center;
   text-align: center;
   height: 50px;
-  color: #38001c;
+  color: #ffffff;
+  background-color: black;
 }
 
 .second-content span{
