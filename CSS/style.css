@@ -119,10 +119,26 @@ body{
   color: var(--almost-black);
 }
 
-.nav__login{
-  width: 90%;
+.nav__sign{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
   text-align: center;
+  font-size: 18px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: rgb(5, 49, 31);
+}
+.nav__sign:hover{
+color: white;
+}
+.nav__sign img{
+  margin-right: 4px;
+  width: 20px;
+  height: 20px;
 }
 
 .nav__login--border{
@@ -131,12 +147,81 @@ body{
   border: 1px solid var(--medium-gray);
 }
 
-.nav__sign{
-  display: inline-block;
-  color: var(--medium-gray);
-  padding: .7em 0;
-  text-decoration: none;
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
 }
+
+/* for all social containers*/
+.socialContainer {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+  border-radius: 10px;
+}
+/* instagram*/
+.containerOne {
+  background-color: #d62976;
+  transition-duration: .3s;
+}
+/* twitter*/
+.containerTwo {
+  background-color: #00acee;
+  transition-duration: .3s;
+}
+/* linkdin*/
+.containerThree {
+  background-color: #0072b1;
+  transition-duration: .3s;
+}
+/* Whatsapp*/
+.containerFour{
+  background-color: #128C7E;
+  transition-duration: .3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
 
 /* Main */
 
@@ -284,6 +369,14 @@ body{
       padding: 0 1.5em;
   }
 
+  .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 0px;
+    margin-right: 10px;
+  }
   .main__grid{
       margin: 0 auto;
       max-width: 1200px;
