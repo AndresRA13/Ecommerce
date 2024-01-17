@@ -8,8 +8,146 @@
   scroll-behavior: smooth;
   font-family: 'poppins', sans-serif;
 }
+#gallery {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+#gallery p{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.gallery-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.gallery-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.gallery-item iframe{
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+
+/* Navegación del Slider */
+.gallery-navigation {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav-button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav-button:hover {
+background-color: #005f5f;
+}
 
 
+/*Seccion de ls 3 review------------------------------------------------------------*/
+.review_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  background: whitesmoke;
+}
+
+.review_container .review_setup .title {
+  color: black;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+
+.review_container .review_setup .title span {
+  color: rgba(255, 0, 0, 0.699);
+}
+
+.review_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews_send {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: auto;
+
+}
+
+.review_send1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 20;
+  width: 350px;
+
+}
+
+.review_send2 {
+  background: black;
+  color: white;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 350px;
+  height: 310px;
+  transform: translateY(-15%);
+  border-radius: 5px;
+  border: 10px white;
+
+}
+
+.reviews_send img {
+  width: 150px;
+  height: 150px;
+  border-radius: 180px 180px 180px 180px;
+  -moz-border-radius: 180px 180px 180px 180px;
+  -webkit-border-radius: 180px 180px 180px 180px;
+  border: 10px solid white;
+}
+
+.reviews_send .title {
+  color: white;
+  font-weight: bold;
+}
+
+.review_send2 .subtitle {
+  color: whitesmoke;
+  width: 300px;
+  font-size: 13px;
+}
+
+.reviews_send .stars i {
+  color: rgba(255, 0, 0, 0.699);
+}
 /*Sección de carrito de compras*/
 .product-in-cart {
   /* Agrega los estilos que desees para los productos en el carrito */
@@ -1252,6 +1390,28 @@ input[type="submit"] {
 
 /*Personalización tablets y telefonos*/
 @media screen and (max-width: 800px) {
+  /*Section del iframe*/
+  .gallery-item iframe{
+    width: 100%;
+    height: 300px;
+    display: block;
+  }
+  /*seccion offert img grande*/
+  .oferts img{
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px 10px 10px; 
+  }
+  .oferts_heads p{
+    font-size: 20px;
+  }
+  .oferts_heads p span{
+    font-size: 25px;
+  }
+  .oferts_heads h5{
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
   /*Carrito pagar*/
   .totalContainer{
     display: flex;
