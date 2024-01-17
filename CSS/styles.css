@@ -394,7 +394,7 @@ button:hover {
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 .product_view .product_images .img_done img{
   width: 100px;
@@ -1536,6 +1536,9 @@ input[type="submit"] {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+.product_images .close_btn{
+  margin-top: 15px;
 }
 .product_information{
   display: flex;
