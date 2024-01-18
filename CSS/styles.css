@@ -8,6 +8,8 @@
   scroll-behavior: smooth;
   font-family: 'poppins', sans-serif;
 }
+/*---------------------------------------Slider de los productos--------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------*/
 #gallery {
   width: 80%;
   margin: auto;
@@ -62,7 +64,8 @@ background-color: #005f5f;
 }
 
 
-/*Seccion de ls 3 review------------------------------------------------------------*/
+/*---------------------------------------Sección de los review / testimonios--------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------*/
 .review_container {
   display: flex;
   flex-direction: column;
@@ -153,9 +156,9 @@ background-color: #005f5f;
 .reviews_send .stars i {
   color: rgba(255, 0, 0, 0.699);
 }
-/*Sección de carrito de compras*/
+/*---------------------------------------Carritos de compras--------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------*/
 .product-in-cart {
-  /* Agrega los estilos que desees para los productos en el carrito */
   background-color: #f0f0f0;
   border: 1px solid #ddd;
   margin-bottom: 10px;
@@ -177,6 +180,7 @@ background-color: #005f5f;
 }
 .cart-details{
   margin-right: 50px;
+  width: 200px;
 }
 .totalContainer{
   display: flex;
@@ -210,7 +214,8 @@ button:hover {
   border: 1px solid rgb(6, 124, 59);
   ;
 }
-/*Seccion de la información*/
+/*---------------------------------------Sección de la información--------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------*/
 .init {
   display: flex;
   flex-wrap: wrap;
@@ -238,7 +243,8 @@ button:hover {
   box-shadow: -1px 0px 30px 0px rgba(0, 0, 0, 0.52);
 }
 
-/*Personalización delk centro de productos*/
+/*---------------------------------------Centro de productos generales--------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------*/
 .Products {
   display: flex;
   flex-direction: column;
@@ -360,7 +366,8 @@ button:hover {
   font-weight: bold;
 }
 
-/*Personalización de los porductos viewer*/
+/*---------------------------------------Modal del producto general--------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------*/
 .product_view{
   display: none;
   width: 100%;
@@ -475,8 +482,8 @@ button:hover {
 
 
 
-
-/*Sección pagina de descuentos*/
+/*---------------------------------------Imagenes de los descuentos --------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------*/
 .discount {
   display: flex;
   flex-wrap: wrap;
@@ -517,7 +524,8 @@ button:hover {
 .discount .titles button {
   color: black;
 }
-/*Sección de imagenes y anuncios*/
+/*---------------------------------------Sección de imagenes y anuncios--------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------*/
 .container_images{
   display: flex;
   flex-wrap: wrap;
@@ -624,7 +632,8 @@ button:hover {
   color: red;
 }
 
-/*Seccion personalizada de contacto*/
+/*---------------------------------------Sección del contacto--------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------*/
 .contact{
   display: flex;
   flex-direction: row;
@@ -673,7 +682,10 @@ button:hover {
   background: transparent;
   border: 1px solid white;
 }
-/*Personalización del footer*/
+
+
+/*---------------------------------------Sección del footer--------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------*/
 .footer{
   display: flex;
   flex-wrap: wrap;
@@ -713,7 +725,8 @@ button:hover {
 
 }
 
-/*Personalización del blog*/
+/*---------------------------------------blog general y ofertas--------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------*/
 .blog_main{
   display: flex;
   flex-direction: column;
@@ -1010,7 +1023,8 @@ font-size: 30px;
 
 
 
-/*Sección de contacto */
+/*-------------------------------------Pagina del contacto general--------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------*/
 .talk_contact{
   display:flex;
   width: 100%;
@@ -1178,42 +1192,6 @@ input[type="submit"] {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-}
-/*Personalizacíon del carrito de compras*/
-.car{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: whitesmoke;
-}
-.car:hover{
-  background: whitesmoke;
-  color: unset;
-}
-.car_prin{
-  display: flex;
-  width: 100%;
-  height: 450px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(
-    0deg, 
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-  ), url(https://c4.wallpaperflare.com/wallpaper/14/4/971/3-316-16-9-aspect-ratio-s-sfw-wallpaper-preview.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.car_prin .title{
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-}
-.car_prin .subtitle{
-  color: rgba(255, 255, 255, 0.781);
-  font-size: 15px;
 }
 
 
@@ -1433,6 +1411,16 @@ input[type="submit"] {
     flex-direction: column;
     margin-left: unset;
   }
+  .cart-item img{
+    width: 200px;
+    margin: 0px 10px 10px 10px;
+  }
+  
+  .cart-details{
+    margin-right: 50px;
+    width: auto;
+  }
+
   /*Personalización de los productos adaptables*/
   .product_content {
     display: flex;
