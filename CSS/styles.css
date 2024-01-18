@@ -54,6 +54,7 @@
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .nav-button:hover {
@@ -365,7 +366,7 @@ button:hover {
   width: 100%;
   position: absolute;
   background-color: white;
-  top: 9vh;
+  top: 7vh;
   height: auto;
   flex-wrap: wrap;
   justify-content: center;
@@ -1537,7 +1538,7 @@ input[type="submit"] {
   align-items: center;
 }
 .product_images .close_btn{
-  margin-top: 15px;
+  margin-top: 17px;
 }
 .product_information{
   display: flex;
