@@ -10,6 +10,15 @@
 }
 /*---------------------------------------gest date--------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------*/
+.disnt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: whitesmoke;
+  font-size: 50px;
+}
 .cokies{
   display: flex;
   flex-direction: column;
